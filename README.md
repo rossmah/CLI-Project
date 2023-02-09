@@ -22,18 +22,19 @@ You also should think about where you want this project and stored. Since this i
 
 Once you have a draft of your file structure and a plan for where the .sh file to be stored, move on to Step 2. Check out a my list of planned folders/files below:
 
-> ### Files: 
-> * index.html
-> * main.css
-> * sanitize.css
-> * main.js
-
- <br>
-
 > ### Folders: 
 > * img
 > * css
 > * js 
+
+<br>
+
+> ### Files: 
+> * index.html
+> * css/main.css
+> * css/sanitize.css
+> * js/main.js
+
 
 
 <br>
