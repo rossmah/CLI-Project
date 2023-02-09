@@ -20,7 +20,21 @@ The first thing that must be determined is what your ideal folders and files wou
 
 You also should think about where you want this project and stored. Since this is meant to be for conviencence, you should ideally have the executable .sh file be somewhere within easy access. Since this automation will be most helpful for me regarding my COMM429 course, I decided to store my file on the path Desktop > COMM429. 
 
-Once you have a draft of your file structure and a plan for where the .sh file to be stored, move on to Step 2. 
+Once you have a draft of your file structure and a plan for where the .sh file to be stored, move on to Step 2. Check out a my list of planned folders/files below:
+
+> ### Files: 
+> * index.html
+> * main.css
+> * sanitize.css
+> * main.js
+
+ <br>
+
+> ### Folders: 
+> * img
+> * css
+> * js 
+
 
 <br>
 
