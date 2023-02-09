@@ -1,5 +1,6 @@
 # Blog Post 1: How to Create Bash Script for Project Templates
-
+### By: Holly Rossmann
+<br>
 This blog post will act as a tutorial for Mac users who are interested in automating the process of setting up a new repository with commonly used files. Additionally, this project will be opened in VSCode upon the script running, allowing the user the ease to begin working, or to initialize a github repository from the VSCode application.
 
 The focus of this blog post will be to walk you through creating a Bash Script (.sh) file that will automatically set up a new project for you with boilerplate html, css, and js files. 
