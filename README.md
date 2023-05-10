@@ -18,7 +18,7 @@ The focus of this blog post will be to walk you through creating a Bash Script (
 ## Step 1: File Structure Decisions
 The first thing that must be determined is what your ideal folders and files would be. This is meant to make your life easier by automating a task that you find yourself repeating a lot. What typical folders does your project consist of? What files do you find yourself always needing? While I will be moving forward with a file structure that I find helpful for myself, feel free to deviate and change this step for what works best for you. Write down a list of your planned folders and files.
 
-You also should think about where you want this project and stored. Since this is meant to be for conviencence, you should ideally have the executable .sh file be somewhere within easy access. Since this automation will be most helpful for me regarding my COMM429 course, I decided to store my file on the path Desktop > COMM429. 
+You also should think about where you want this project and stored. Since this is meant to be for convenience, you should ideally have the executable .sh file be somewhere within easy access. Since this automation will be most helpful for me regarding my COMM429 course, I decided to store my file on the path Desktop > COMM429. 
 
 Once you have a draft of your file structure and a plan for where the .sh file to be stored, move on to Step 2. Check out a my list of planned folders/files below:
 
@@ -52,7 +52,7 @@ With that file open, type the statement below on the first few lines:
 
 ```
 
-The first line is very important. This is what lets the terminal know that this is a bash script, and this allows it to be exected and run as a command line prompt. 
+The first line is very important. This is what lets the terminal know that this is a bash script, and this allows it to be executed and run as a command line prompt. 
 
 The other two lines are not mandatory, but is an easy way for you to remember the correct command to run to execute the .sh file. The exact text on these lines will vary based on your environment. Fill in **< path >** with the path to the .sh file location, and **< projectName >** with your planned name for your new project. This name will be what the main folder of your project is titled. The .sh file takes in an argument for your project name, so that it can be customized whenever it runs.  
 
@@ -83,7 +83,7 @@ touch $1/js/main.js
 
 ## Step 3: Establishing Content for HTML File 
 
-Now that we have our file sturcture figured out, we can go through and add the content that will be in each of our files. Each line of these files will be manually entered into the file via the **"echo"** command, followed by the content, and ending with a **" >> $1/< fileName >"** tag to ensure it is piped in the correct file. Feel free to use the example below as a template for your HTML file, or completely come up with your own. 
+Now that we have our file structure figured out, we can go through and add the content that will be in each of our files. Each line of these files will be manually entered into the file via the **"echo"** command, followed by the content, and ending with a **" >> $1/< fileName >"** tag to ensure it is piped in the correct file. Feel free to use the example below as a template for your HTML file, or completely come up with your own. 
 
 <br>
 
